@@ -1,0 +1,2805 @@
+{
+  "report_date": "2025-08-19",
+  "summary": "Daily Financial Market Report",
+  "key_insights": [
+    "Market Sentiment: Bullish",
+    "Tech Sector: Uptrend (W: 1.13%, M: 4.45%, Y: 27.64%)",
+    "MAG 7 Average Monthly Return: 9.79%",
+    "Best MAG 7: Alphabet (15.11% monthly)",
+    "Worst MAG 7: Amazon (3.59% monthly)",
+    "Inflation (CPI): 2.7% year-over-year, Trend: Increasing",
+    "Federal Funds Rate: 4.33%, Trend: Mixed/Stable",
+    "Unemployment Rate: 4.2%, Trend: Mixed/Stable",
+    "Corporate Bond Spread: 1.7% (Normal), Trend: Mixed/Stable",
+    "TED Spread: 0.09% (Normal), Trend: Mixed/Stable",
+    "Bank Credit Growth: 4.6% YoY (Normal), Trend: Increasing",
+    "Excess Reserves: $2799.7 billion, Trend: Insufficient Data",
+    "BTC: $116252 (-1.43% monthly), ETH: $4312 (19.95% monthly)",
+    "FOMC Stance: The Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. The Committee will continue to monitor incoming information for the economic outlook, including progress on lowering inflation to our 2 percent objective.",
+    "Manufacturing PMI: 48.5% (Contracting), Trend: Contracting",
+    "Services PMI: 52.1% (Expanding), Trend: Expanding"
+  ],
+  "macro_data": [
+    {
+      "name": "GDP",
+      "series_id": "GDP",
+      "date": "2025-04-01",
+      "current_value": 30331.12,
+      "changes": {
+        "previous_period": 369.07,
+        "previous_period_pct": 1.23,
+        "year_over_year": 1314.4,
+        "year_over_year_pct": 4.53
+      },
+      "trend": "Increasing",
+      "five_year_high": 30331.12,
+      "five_year_low": 21684.55,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Real GDP",
+      "series_id": "GDPC1",
+      "date": "2025-04-01",
+      "current_value": 23685.29,
+      "changes": {
+        "previous_period": 172.57,
+        "previous_period_pct": 0.73,
+        "year_over_year": 461.38,
+        "year_over_year_pct": 1.99
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 23685.29,
+      "five_year_low": 20548.79,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "GDP Growth Rate",
+      "series_id": "A191RL1Q225SBEA",
+      "date": "2025-04-01",
+      "current_value": 3.0,
+      "changes": {
+        "previous_period": 3.5,
+        "previous_period_pct": -700.0,
+        "year_over_year": 0.0,
+        "year_over_year_pct": 0.0
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 35.2,
+      "five_year_low": -1.0,
+      "current_vs_high_pct": -91.48
+    },
+    {
+      "name": "Unemployment Rate",
+      "series_id": "UNRATE",
+      "date": "2025-07-01",
+      "current_value": 4.2,
+      "changes": {
+        "previous_period": 0.1,
+        "previous_period_pct": 2.44,
+        "year_over_year": 0.0,
+        "year_over_year_pct": 0.0
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 8.4,
+      "five_year_low": 3.4,
+      "current_vs_high_pct": -50.0
+    },
+    {
+      "name": "Initial Jobless Claims",
+      "series_id": "ICSA",
+      "date": "2025-08-09",
+      "current_value": 224000.0,
+      "changes": {
+        "previous_period": -3000.0,
+        "previous_period_pct": -1.32,
+        "year_over_year": -6000.0,
+        "year_over_year_pct": -2.61
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 892000.0,
+      "five_year_low": 189000.0,
+      "current_vs_high_pct": -74.89
+    },
+    {
+      "name": "Employment Population Ratio",
+      "series_id": "EMRATIO",
+      "date": "2025-07-01",
+      "current_value": 59.6,
+      "changes": {
+        "previous_period": -0.1,
+        "previous_period_pct": -0.17,
+        "year_over_year": -0.4,
+        "year_over_year_pct": -0.67
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 60.4,
+      "five_year_low": 56.5,
+      "current_vs_high_pct": -1.32
+    },
+    {
+      "name": "Consumer Price Index (CPI)",
+      "series_id": "CPIAUCSL",
+      "date": "2025-07-01",
+      "current_value": 322.13,
+      "changes": {
+        "previous_period": 0.63,
+        "previous_period_pct": 0.2,
+        "year_over_year": 8.57,
+        "year_over_year_pct": 2.73
+      },
+      "trend": "Increasing",
+      "five_year_high": 322.13,
+      "five_year_low": 259.32,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Core CPI",
+      "series_id": "CPILFESL",
+      "date": "2025-07-01",
+      "current_value": 328.66,
+      "changes": {
+        "previous_period": 1.06,
+        "previous_period_pct": 0.32,
+        "year_over_year": 9.72,
+        "year_over_year_pct": 3.05
+      },
+      "trend": "Increasing",
+      "five_year_high": 328.66,
+      "five_year_low": 268.42,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Producer Price Index (PPI)",
+      "series_id": "PPIACO",
+      "date": "2025-07-01",
+      "current_value": 262.53,
+      "changes": {
+        "previous_period": 1.88,
+        "previous_period_pct": 0.72,
+        "year_over_year": 5.21,
+        "year_over_year_pct": 2.02
+      },
+      "trend": "Increasing",
+      "five_year_high": 280.25,
+      "five_year_low": 194.3,
+      "current_vs_high_pct": -6.32
+    },
+    {
+      "name": "PCE Price Index",
+      "series_id": "PCEPILFE",
+      "date": "2025-06-01",
+      "current_value": 125.93,
+      "changes": {
+        "previous_period": 0.32,
+        "previous_period_pct": 0.26,
+        "year_over_year": 3.42,
+        "year_over_year_pct": 2.79
+      },
+      "trend": "Increasing",
+      "five_year_high": 125.93,
+      "five_year_low": 105.24,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Federal Funds Rate",
+      "series_id": "FEDFUNDS",
+      "date": "2025-07-01",
+      "current_value": 4.33,
+      "changes": {
+        "previous_period": 0.0,
+        "previous_period_pct": 0.0,
+        "year_over_year": -1.0,
+        "year_over_year_pct": -18.76
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 5.33,
+      "five_year_low": 0.06,
+      "current_vs_high_pct": -18.76
+    },
+    {
+      "name": "Money Supply M2",
+      "series_id": "M2SL",
+      "date": "2025-06-01",
+      "current_value": 22020.8,
+      "changes": {
+        "previous_period": 137.2,
+        "previous_period_pct": 0.63,
+        "year_over_year": 955.2,
+        "year_over_year_pct": 4.53
+      },
+      "trend": "Increasing",
+      "five_year_high": 22020.8,
+      "five_year_low": 18364.3,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "10-Year Treasury Rate",
+      "series_id": "GS10",
+      "date": "2025-07-01",
+      "current_value": 4.39,
+      "changes": {
+        "previous_period": 0.01,
+        "previous_period_pct": 0.23,
+        "year_over_year": 0.14,
+        "year_over_year_pct": 3.29
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 4.8,
+      "five_year_low": 0.65,
+      "current_vs_high_pct": -8.54
+    },
+    {
+      "name": "2-Year Treasury Rate",
+      "series_id": "GS2",
+      "date": "2025-07-01",
+      "current_value": 3.88,
+      "changes": {
+        "previous_period": -0.01,
+        "previous_period_pct": -0.26,
+        "year_over_year": -0.62,
+        "year_over_year_pct": -13.78
+      },
+      "trend": "Decreasing",
+      "five_year_high": 5.07,
+      "five_year_low": 0.12,
+      "current_vs_high_pct": -23.47
+    },
+    {
+      "name": "Treasury Yield Curve",
+      "series_id": "T10Y2Y",
+      "date": "2025-08-19",
+      "current_value": 0.55,
+      "changes": {
+        "previous_period": -0.02,
+        "previous_period_pct": -3.51,
+        "year_over_year": 0.46,
+        "year_over_year_pct": 511.11
+      },
+      "trend": "Decreasing",
+      "five_year_high": 1.59,
+      "five_year_low": -1.08,
+      "current_vs_high_pct": -65.41
+    },
+    {
+      "name": "Baa Corporate Bond Yield",
+      "series_id": "BAA",
+      "date": "2025-07-01",
+      "current_value": 6.1,
+      "changes": {
+        "previous_period": -0.05,
+        "previous_period_pct": -0.81,
+        "year_over_year": 0.26,
+        "year_over_year_pct": 4.45
+      },
+      "trend": "Decreasing",
+      "five_year_high": 6.63,
+      "five_year_low": 3.16,
+      "current_vs_high_pct": -7.99
+    },
+    {
+      "name": "Aaa Corporate Bond Yield",
+      "series_id": "AAA",
+      "date": "2025-07-01",
+      "current_value": 5.45,
+      "changes": {
+        "previous_period": -0.01,
+        "previous_period_pct": -0.18,
+        "year_over_year": 0.33,
+        "year_over_year_pct": 6.45
+      },
+      "trend": "Decreasing",
+      "five_year_high": 5.61,
+      "five_year_low": 2.25,
+      "current_vs_high_pct": -2.85
+    },
+    {
+      "name": "Corporate Bond Spread",
+      "series_id": "BAA10Y",
+      "date": "2025-08-18",
+      "current_value": 1.7,
+      "changes": {
+        "previous_period": 0.01,
+        "previous_period_pct": 0.59,
+        "year_over_year": 0.02,
+        "year_over_year_pct": 1.19
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 2.76,
+      "five_year_low": 1.36,
+      "current_vs_high_pct": -38.41
+    },
+    {
+      "name": "High Yield Spread",
+      "series_id": "BAAFFM",
+      "date": "2025-07-01",
+      "current_value": 1.77,
+      "changes": {
+        "previous_period": -0.05,
+        "previous_period_pct": -2.75,
+        "year_over_year": 1.26,
+        "year_over_year_pct": 247.06
+      },
+      "trend": "Decreasing",
+      "five_year_high": 4.36,
+      "five_year_low": 0.27,
+      "current_vs_high_pct": -59.4
+    },
+    {
+      "name": "TED Spread",
+      "series_id": "TEDRATE",
+      "date": "2022-01-21",
+      "current_value": 0.09,
+      "changes": {
+        "previous_period": 0.01,
+        "previous_period_pct": 12.5,
+        "year_over_year": -0.05,
+        "year_over_year_pct": -35.71
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 0.19,
+      "five_year_low": 0.06,
+      "current_vs_high_pct": -52.63
+    },
+    {
+      "name": "Commercial Bank Assets",
+      "series_id": "TLAACBW027SBOG",
+      "date": "2025-08-06",
+      "current_value": 24515.94,
+      "changes": {
+        "previous_period": -80.62,
+        "previous_period_pct": -0.33,
+        "year_over_year": 1111.04,
+        "year_over_year_pct": 4.75
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 24596.57,
+      "five_year_low": 20055.6,
+      "current_vs_high_pct": -0.33
+    },
+    {
+      "name": "Excess Reserves",
+      "series_id": "EXCSRESNS",
+      "date": "2020-08-01",
+      "current_value": 2799719.0,
+      "changes": {},
+      "trend": "Insufficient Data"
+    },
+    {
+      "name": "Commercial Paper Outstanding",
+      "series_id": "COMPOUT",
+      "date": "2025-08-13",
+      "current_value": 1390.37,
+      "changes": {
+        "previous_period": -7.62,
+        "previous_period_pct": -0.54,
+        "year_over_year": 153.19,
+        "year_over_year_pct": 12.38
+      },
+      "trend": "Decreasing",
+      "five_year_high": 1472.65,
+      "five_year_low": 945.32,
+      "current_vs_high_pct": -5.59
+    },
+    {
+      "name": "Bank Credit",
+      "series_id": "TOTBKCR",
+      "date": "2025-08-06",
+      "current_value": 18629.17,
+      "changes": {
+        "previous_period": 17.84,
+        "previous_period_pct": 0.1,
+        "year_over_year": 816.66,
+        "year_over_year_pct": 4.58
+      },
+      "trend": "Increasing",
+      "five_year_high": 18629.17,
+      "five_year_low": 14933.76,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Institutional Money Funds",
+      "series_id": "WIMFSL",
+      "date": "2021-02-01",
+      "current_value": 2840.7,
+      "changes": {
+        "previous_period": 14.8,
+        "previous_period_pct": 0.52
+      },
+      "trend": "Increasing",
+      "five_year_high": 3072.4,
+      "five_year_low": 2789.6,
+      "current_vs_high_pct": -7.54
+    },
+    {
+      "name": "Consumer Sentiment",
+      "series_id": "UMCSENT",
+      "date": "2025-06-01",
+      "current_value": 60.7,
+      "changes": {
+        "previous_period": 8.5,
+        "previous_period_pct": 16.28,
+        "year_over_year": -7.5,
+        "year_over_year_pct": -11.0
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 88.3,
+      "five_year_low": 50.0,
+      "current_vs_high_pct": -31.26
+    },
+    {
+      "name": "Retail Sales",
+      "series_id": "RSAFS",
+      "date": "2025-07-01",
+      "current_value": 726283.0,
+      "changes": {
+        "previous_period": 3712.0,
+        "previous_period_pct": 0.51,
+        "year_over_year": 27374.0,
+        "year_over_year_pct": 3.92
+      },
+      "trend": "Increasing",
+      "five_year_high": 726283.0,
+      "five_year_low": 530735.0,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Industrial Production",
+      "series_id": "INDPRO",
+      "date": "2025-07-01",
+      "current_value": 103.99,
+      "changes": {
+        "previous_period": -0.13,
+        "previous_period_pct": -0.12,
+        "year_over_year": 1.47,
+        "year_over_year_pct": 1.43
+      },
+      "trend": "Mixed/Stable",
+      "five_year_high": 104.11,
+      "five_year_low": 95.51,
+      "current_vs_high_pct": -0.12
+    },
+    {
+      "name": "Average Hourly Earnings",
+      "series_id": "CES0500000003",
+      "date": "2025-07-01",
+      "current_value": 36.44,
+      "changes": {
+        "previous_period": 0.12,
+        "previous_period_pct": 0.33,
+        "year_over_year": 1.37,
+        "year_over_year_pct": 3.91
+      },
+      "trend": "Increasing",
+      "five_year_high": 36.44,
+      "five_year_low": 29.5,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "Average Hourly Earnings YoY",
+      "series_id": "AHETPI",
+      "date": "2025-07-01",
+      "current_value": 31.34,
+      "changes": {
+        "previous_period": 0.08,
+        "previous_period_pct": 0.26,
+        "year_over_year": 1.17,
+        "year_over_year_pct": 3.88
+      },
+      "trend": "Increasing",
+      "five_year_high": 31.34,
+      "five_year_low": 24.8,
+      "current_vs_high_pct": 0.0
+    },
+    {
+      "name": "ISM Manufacturing PMI",
+      "series_id": "MANEMP",
+      "date": "2025-07-01",
+      "current_value": 12727.0,
+      "changes": {
+        "previous_period": -11.0,
+        "previous_period_pct": -0.09,
+        "year_over_year": -113.0,
+        "year_over_year_pct": -0.88
+      },
+      "trend": "Decreasing",
+      "five_year_high": 12900.0,
+      "five_year_low": 11999.0,
+      "current_vs_high_pct": -1.34
+    },
+    {
+      "name": "ISM Services PMI",
+      "series_id": "SRVPRD",
+      "date": "2025-07-01",
+      "current_value": 137885.0,
+      "changes": {
+        "previous_period": 86.0,
+        "previous_period_pct": 0.06,
+        "year_over_year": 1559.0,
+        "year_over_year_pct": 1.14
+      },
+      "trend": "Increasing",
+      "five_year_high": 137885.0,
+      "five_year_low": 121033.0,
+      "current_vs_high_pct": 0.0
+    }
+  ],
+  "market_data": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "date": "2025-08-18",
+      "current_price": {
+        "^GSPC": {
+          "^GSPC": 6449.15
+        }
+      },
+      "returns": {
+        "daily": {
+          "^GSPC": {
+            "^GSPC": -0.01
+          }
+        },
+        "weekly": {
+          "^GSPC": {
+            "^GSPC": 1.72
+          }
+        },
+        "monthly": {
+          "^GSPC": {
+            "^GSPC": 3.52
+          }
+        },
+        "quarterly": {
+          "^GSPC": {
+            "^GSPC": 29.43
+          }
+        },
+        "yearly": {
+          "^GSPC": {
+            "^GSPC": 25.69
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "^GSPC": {
+            "^GSPC": 0.53
+          }
+        },
+        "monthly": {
+          "^GSPC": {
+            "^GSPC": 0.58
+          }
+        },
+        "quarterly": {
+          "^GSPC": {
+            "^GSPC": 0.96
+          }
+        },
+        "yearly": {
+          "^GSPC": {
+            "^GSPC": 1.1
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "^GSPC": 6238.01
+        },
+        "Price_to_MA50": {
+          "^GSPC": 1.03
+        },
+        "MA_200": {
+          "^GSPC": 5931.87
+        },
+        "Price_to_MA200": {
+          "^GSPC": 1.09
+        },
+        "RSI_14": 58.05,
+        "MACD": {
+          "^GSPC": 61.03
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
+      "date": "2025-08-18",
+      "current_price": {
+        "^DJI": {
+          "^DJI": 44911.82
+        }
+      },
+      "returns": {
+        "daily": {
+          "^DJI": {
+            "^DJI": -0.08
+          }
+        },
+        "weekly": {
+          "^DJI": {
+            "^DJI": 2.15
+          }
+        },
+        "monthly": {
+          "^DJI": {
+            "^DJI": 1.14
+          }
+        },
+        "quarterly": {
+          "^DJI": {
+            "^DJI": 19.3
+          }
+        },
+        "yearly": {
+          "^DJI": {
+            "^DJI": 15.19
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "^DJI": {
+            "^DJI": 0.64
+          }
+        },
+        "monthly": {
+          "^DJI": {
+            "^DJI": 0.65
+          }
+        },
+        "quarterly": {
+          "^DJI": {
+            "^DJI": 0.93
+          }
+        },
+        "yearly": {
+          "^DJI": {
+            "^DJI": 0.98
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "^DJI": 43936.34
+        },
+        "Price_to_MA50": {
+          "^DJI": 1.02
+        },
+        "MA_200": {
+          "^DJI": 42972.92
+        },
+        "Price_to_MA200": {
+          "^DJI": 1.05
+        },
+        "RSI_14": 54.06,
+        "MACD": {
+          "^DJI": 216.13
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "NASDAQ",
+      "ticker": "^IXIC",
+      "date": "2025-08-18",
+      "current_price": {
+        "^IXIC": {
+          "^IXIC": 21629.77
+        }
+      },
+      "returns": {
+        "daily": {
+          "^IXIC": {
+            "^IXIC": 0.03
+          }
+        },
+        "weekly": {
+          "^IXIC": {
+            "^IXIC": 1.82
+          }
+        },
+        "monthly": {
+          "^IXIC": {
+            "^IXIC": 5.96
+          }
+        },
+        "quarterly": {
+          "^IXIC": {
+            "^IXIC": 41.67
+          }
+        },
+        "yearly": {
+          "^IXIC": {
+            "^IXIC": 33.46
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "^IXIC": {
+            "^IXIC": 0.64
+          }
+        },
+        "monthly": {
+          "^IXIC": {
+            "^IXIC": 0.74
+          }
+        },
+        "quarterly": {
+          "^IXIC": {
+            "^IXIC": 1.21
+          }
+        },
+        "yearly": {
+          "^IXIC": {
+            "^IXIC": 1.45
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "^IXIC": 20591.19
+        },
+        "Price_to_MA50": {
+          "^IXIC": 1.05
+        },
+        "MA_200": {
+          "^IXIC": 19174.27
+        },
+        "Price_to_MA200": {
+          "^IXIC": 1.13
+        },
+        "RSI_14": 62.81,
+        "MACD": {
+          "^IXIC": 313.45
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Russell 2000",
+      "ticker": "^RUT",
+      "date": "2025-08-18",
+      "current_price": {
+        "^RUT": {
+          "^RUT": 2294.47
+        }
+      },
+      "returns": {
+        "daily": {
+          "^RUT": {
+            "^RUT": 0.35
+          }
+        },
+        "weekly": {
+          "^RUT": {
+            "^RUT": 3.6
+          }
+        },
+        "monthly": {
+          "^RUT": {
+            "^RUT": 3.62
+          }
+        },
+        "quarterly": {
+          "^RUT": {
+            "^RUT": 30.32
+          }
+        },
+        "yearly": {
+          "^RUT": {
+            "^RUT": 10.61
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "^RUT": {
+            "^RUT": 1.6
+          }
+        },
+        "monthly": {
+          "^RUT": {
+            "^RUT": 1.2
+          }
+        },
+        "quarterly": {
+          "^RUT": {
+            "^RUT": 1.29
+          }
+        },
+        "yearly": {
+          "^RUT": {
+            "^RUT": 1.42
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "^RUT": 2208.97
+        },
+        "Price_to_MA50": {
+          "^RUT": 1.04
+        },
+        "MA_200": {
+          "^RUT": 2179.3
+        },
+        "Price_to_MA200": {
+          "^RUT": 1.05
+        },
+        "RSI_14": 58.24,
+        "MACD": {
+          "^RUT": 22.44
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "VIX",
+      "ticker": "^VIX",
+      "date": "2025-08-18",
+      "current_price": {
+        "^VIX": {
+          "^VIX": 14.99
+        }
+      },
+      "returns": {
+        "daily": {
+          "^VIX": {
+            "^VIX": -0.66
+          }
+        },
+        "weekly": {
+          "^VIX": {
+            "^VIX": -9.54
+          }
+        },
+        "monthly": {
+          "^VIX": {
+            "^VIX": -15.74
+          }
+        },
+        "quarterly": {
+          "^VIX": {
+            "^VIX": -71.35
+          }
+        },
+        "yearly": {
+          "^VIX": {
+            "^VIX": 11.12
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "^VIX": {
+            "^VIX": 5.51
+          }
+        },
+        "monthly": {
+          "^VIX": {
+            "^VIX": 6.54
+          }
+        },
+        "quarterly": {
+          "^VIX": {
+            "^VIX": 7.24
+          }
+        },
+        "yearly": {
+          "^VIX": {
+            "^VIX": 9.86
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "^VIX": 16.92
+        },
+        "Price_to_MA50": {
+          "^VIX": 0.89
+        },
+        "MA_200": {
+          "^VIX": 19.28
+        },
+        "Price_to_MA200": {
+          "^VIX": 0.78
+        },
+        "RSI_14": 46.67,
+        "MACD": {
+          "^VIX": -0.57
+        }
+      },
+      "trend": "Downtrend"
+    },
+    {
+      "name": "Technology Sector",
+      "ticker": "XLK",
+      "date": "2025-08-18",
+      "current_price": {
+        "XLK": {
+          "XLK": 266.27
+        }
+      },
+      "returns": {
+        "daily": {
+          "XLK": {
+            "XLK": 0.21
+          }
+        },
+        "weekly": {
+          "XLK": {
+            "XLK": 1.13
+          }
+        },
+        "monthly": {
+          "XLK": {
+            "XLK": 4.45
+          }
+        },
+        "quarterly": {
+          "XLK": {
+            "XLK": 48.4
+          }
+        },
+        "yearly": {
+          "XLK": {
+            "XLK": 27.64
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "XLK": {
+            "XLK": 0.84
+          }
+        },
+        "monthly": {
+          "XLK": {
+            "XLK": 0.84
+          }
+        },
+        "quarterly": {
+          "XLK": {
+            "XLK": 1.33
+          }
+        },
+        "yearly": {
+          "XLK": {
+            "XLK": 1.69
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "XLK": 255.34
+        },
+        "Price_to_MA50": {
+          "XLK": 1.04
+        },
+        "MA_200": {
+          "XLK": 232.21
+        },
+        "Price_to_MA200": {
+          "XLK": 1.15
+        },
+        "RSI_14": 53.57,
+        "MACD": {
+          "XLK": 3.36
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Semiconductor ETF",
+      "ticker": "SMH",
+      "date": "2025-08-18",
+      "current_price": {
+        "SMH": {
+          "SMH": 296.86
+        }
+      },
+      "returns": {
+        "daily": {
+          "SMH": {
+            "SMH": 0.41
+          }
+        },
+        "weekly": {
+          "SMH": {
+            "SMH": 1.97
+          }
+        },
+        "monthly": {
+          "SMH": {
+            "SMH": 6.11
+          }
+        },
+        "quarterly": {
+          "SMH": {
+            "SMH": 64.97
+          }
+        },
+        "yearly": {
+          "SMH": {
+            "SMH": 33.06
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "SMH": {
+            "SMH": 1.39
+          }
+        },
+        "monthly": {
+          "SMH": {
+            "SMH": 1.21
+          }
+        },
+        "quarterly": {
+          "SMH": {
+            "SMH": 1.84
+          }
+        },
+        "yearly": {
+          "SMH": {
+            "SMH": 2.44
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "SMH": 281.71
+        },
+        "Price_to_MA50": {
+          "SMH": 1.05
+        },
+        "MA_200": {
+          "SMH": 247.14
+        },
+        "Price_to_MA200": {
+          "SMH": 1.2
+        },
+        "RSI_14": 54.08,
+        "MACD": {
+          "SMH": 4.84
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Software ETF",
+      "ticker": "IGV",
+      "date": "2025-08-18",
+      "current_price": {
+        "IGV": {
+          "IGV": 109.41
+        }
+      },
+      "returns": {
+        "daily": {
+          "IGV": {
+            "IGV": 0.27
+          }
+        },
+        "weekly": {
+          "IGV": {
+            "IGV": -0.17
+          }
+        },
+        "monthly": {
+          "IGV": {
+            "IGV": -1.17
+          }
+        },
+        "quarterly": {
+          "IGV": {
+            "IGV": 36.51
+          }
+        },
+        "yearly": {
+          "IGV": {
+            "IGV": 26.42
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "IGV": {
+            "IGV": 0.93
+          }
+        },
+        "monthly": {
+          "IGV": {
+            "IGV": 1.12
+          }
+        },
+        "quarterly": {
+          "IGV": {
+            "IGV": 1.38
+          }
+        },
+        "yearly": {
+          "IGV": {
+            "IGV": 1.62
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "IGV": 109.27
+        },
+        "Price_to_MA50": {
+          "IGV": 1.0
+        },
+        "MA_200": {
+          "IGV": 101.64
+        },
+        "Price_to_MA200": {
+          "IGV": 1.08
+        },
+        "RSI_14": 38.31,
+        "MACD": {
+          "IGV": -0.11
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "AI & Robotics ETF",
+      "ticker": "BOTZ",
+      "date": "2025-08-18",
+      "current_price": {
+        "BOTZ": {
+          "BOTZ": 34.07
+        }
+      },
+      "returns": {
+        "daily": {
+          "BOTZ": {
+            "BOTZ": -0.03
+          }
+        },
+        "weekly": {
+          "BOTZ": {
+            "BOTZ": 1.91
+          }
+        },
+        "monthly": {
+          "BOTZ": {
+            "BOTZ": 5.94
+          }
+        },
+        "quarterly": {
+          "BOTZ": {
+            "BOTZ": 39.35
+          }
+        },
+        "yearly": {
+          "BOTZ": {
+            "BOTZ": 6.98
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "BOTZ": {
+            "BOTZ": 1.1
+          }
+        },
+        "monthly": {
+          "BOTZ": {
+            "BOTZ": 1.33
+          }
+        },
+        "quarterly": {
+          "BOTZ": {
+            "BOTZ": 1.41
+          }
+        },
+        "yearly": {
+          "BOTZ": {
+            "BOTZ": 1.62
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "BOTZ": 32.69
+        },
+        "Price_to_MA50": {
+          "BOTZ": 1.04
+        },
+        "MA_200": {
+          "BOTZ": 31.72
+        },
+        "Price_to_MA200": {
+          "BOTZ": 1.07
+        },
+        "RSI_14": 52.57,
+        "MACD": {
+          "BOTZ": 0.35
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "date": "2025-08-18",
+      "current_price": {
+        "AAPL": {
+          "AAPL": 230.89
+        }
+      },
+      "returns": {
+        "daily": {
+          "AAPL": {
+            "AAPL": -0.3
+          }
+        },
+        "weekly": {
+          "AAPL": {
+            "AAPL": 5.05
+          }
+        },
+        "monthly": {
+          "AAPL": {
+            "AAPL": 10.1
+          }
+        },
+        "quarterly": {
+          "AAPL": {
+            "AAPL": 34.24
+          }
+        },
+        "yearly": {
+          "AAPL": {
+            "AAPL": 32.81
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "AAPL": {
+            "AAPL": 0.97
+          }
+        },
+        "monthly": {
+          "AAPL": {
+            "AAPL": 1.58
+          }
+        },
+        "quarterly": {
+          "AAPL": {
+            "AAPL": 1.78
+          }
+        },
+        "yearly": {
+          "AAPL": {
+            "AAPL": 1.91
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "AAPL": 209.99
+        },
+        "Price_to_MA50": {
+          "AAPL": 1.1
+        },
+        "MA_200": {
+          "AAPL": 220.5
+        },
+        "Price_to_MA200": {
+          "AAPL": 1.05
+        },
+        "RSI_14": 71.05,
+        "MACD": {
+          "AAPL": 6.35
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "date": "2025-08-18",
+      "current_price": {
+        "MSFT": {
+          "MSFT": 517.1
+        }
+      },
+      "returns": {
+        "daily": {
+          "MSFT": {
+            "MSFT": -0.59
+          }
+        },
+        "weekly": {
+          "MSFT": {
+            "MSFT": -0.72
+          }
+        },
+        "monthly": {
+          "MSFT": {
+            "MSFT": 3.89
+          }
+        },
+        "quarterly": {
+          "MSFT": {
+            "MSFT": 46.11
+          }
+        },
+        "yearly": {
+          "MSFT": {
+            "MSFT": 25.81
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "MSFT": {
+            "MSFT": 1.03
+          }
+        },
+        "monthly": {
+          "MSFT": {
+            "MSFT": 1.16
+          }
+        },
+        "quarterly": {
+          "MSFT": {
+            "MSFT": 1.42
+          }
+        },
+        "yearly": {
+          "MSFT": {
+            "MSFT": 1.48
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "MSFT": 502.79
+        },
+        "Price_to_MA50": {
+          "MSFT": 1.03
+        },
+        "MA_200": {
+          "MSFT": 437.54
+        },
+        "Price_to_MA200": {
+          "MSFT": 1.18
+        },
+        "RSI_14": 52.78,
+        "MACD": {
+          "MSFT": 5.74
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "date": "2025-08-18",
+      "current_price": {
+        "GOOGL": {
+          "GOOGL": 203.5
+        }
+      },
+      "returns": {
+        "daily": {
+          "GOOGL": {
+            "GOOGL": -0.2
+          }
+        },
+        "weekly": {
+          "GOOGL": {
+            "GOOGL": 3.55
+          }
+        },
+        "monthly": {
+          "GOOGL": {
+            "GOOGL": 15.11
+          }
+        },
+        "quarterly": {
+          "GOOGL": {
+            "GOOGL": 40.81
+          }
+        },
+        "yearly": {
+          "GOOGL": {
+            "GOOGL": 53.52
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "GOOGL": {
+            "GOOGL": 0.66
+          }
+        },
+        "monthly": {
+          "GOOGL": {
+            "GOOGL": 1.14
+          }
+        },
+        "quarterly": {
+          "GOOGL": {
+            "GOOGL": 1.79
+          }
+        },
+        "yearly": {
+          "GOOGL": {
+            "GOOGL": 1.9
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "GOOGL": 184.75
+        },
+        "Price_to_MA50": {
+          "GOOGL": 1.1
+        },
+        "MA_200": {
+          "GOOGL": 176.71
+        },
+        "Price_to_MA200": {
+          "GOOGL": 1.15
+        },
+        "RSI_14": 63.99,
+        "MACD": {
+          "GOOGL": 5.62
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "date": "2025-08-18",
+      "current_price": {
+        "AMZN": {
+          "AMZN": 231.49
+        }
+      },
+      "returns": {
+        "daily": {
+          "AMZN": {
+            "AMZN": 0.2
+          }
+        },
+        "weekly": {
+          "AMZN": {
+            "AMZN": 3.75
+          }
+        },
+        "monthly": {
+          "AMZN": {
+            "AMZN": 3.59
+          }
+        },
+        "quarterly": {
+          "AMZN": {
+            "AMZN": 35.64
+          }
+        },
+        "yearly": {
+          "AMZN": {
+            "AMZN": 30.36
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "AMZN": {
+            "AMZN": 1.26
+          }
+        },
+        "monthly": {
+          "AMZN": {
+            "AMZN": 2.01
+          }
+        },
+        "quarterly": {
+          "AMZN": {
+            "AMZN": 2.04
+          }
+        },
+        "yearly": {
+          "AMZN": {
+            "AMZN": 2.01
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "AMZN": 221.61
+        },
+        "Price_to_MA50": {
+          "AMZN": 1.04
+        },
+        "MA_200": {
+          "AMZN": 211.52
+        },
+        "Price_to_MA200": {
+          "AMZN": 1.09
+        },
+        "RSI_14": 50.47,
+        "MACD": {
+          "AMZN": 1.76
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Meta",
+      "ticker": "META",
+      "date": "2025-08-18",
+      "current_price": {
+        "META": {
+          "META": 767.37
+        }
+      },
+      "returns": {
+        "daily": {
+          "META": {
+            "META": -2.27
+          }
+        },
+        "weekly": {
+          "META": {
+            "META": 0.73
+          }
+        },
+        "monthly": {
+          "META": {
+            "META": 6.82
+          }
+        },
+        "quarterly": {
+          "META": {
+            "META": 50.45
+          }
+        },
+        "yearly": {
+          "META": {
+            "META": 54.71
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "META": {
+            "META": 1.85
+          }
+        },
+        "monthly": {
+          "META": {
+            "META": 2.61
+          }
+        },
+        "quarterly": {
+          "META": {
+            "META": 2.39
+          }
+        },
+        "yearly": {
+          "META": {
+            "META": 2.29
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "META": 725.46
+        },
+        "Price_to_MA50": {
+          "META": 1.06
+        },
+        "MA_200": {
+          "META": 639.24
+        },
+        "Price_to_MA200": {
+          "META": 1.2
+        },
+        "RSI_14": 64.5,
+        "MACD": {
+          "META": 18.68
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "date": "2025-08-18",
+      "current_price": {
+        "TSLA": {
+          "TSLA": 335.16
+        }
+      },
+      "returns": {
+        "daily": {
+          "TSLA": {
+            "TSLA": 1.39
+          }
+        },
+        "weekly": {
+          "TSLA": {
+            "TSLA": 4.0
+          }
+        },
+        "monthly": {
+          "TSLA": {
+            "TSLA": 14.02
+          }
+        },
+        "quarterly": {
+          "TSLA": {
+            "TSLA": 51.07
+          }
+        },
+        "yearly": {
+          "TSLA": {
+            "TSLA": 78.14
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "TSLA": {
+            "TSLA": 1.64
+          }
+        },
+        "monthly": {
+          "TSLA": {
+            "TSLA": 2.61
+          }
+        },
+        "quarterly": {
+          "TSLA": {
+            "TSLA": 3.69
+          }
+        },
+        "yearly": {
+          "TSLA": {
+            "TSLA": 4.32
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "TSLA": 320.34
+        },
+        "Price_to_MA50": {
+          "TSLA": 1.05
+        },
+        "MA_200": {
+          "TSLA": 326.92
+        },
+        "Price_to_MA200": {
+          "TSLA": 1.03
+        },
+        "RSI_14": 59.6,
+        "MACD": {
+          "TSLA": 4.78
+        }
+      },
+      "trend": "Recent Bullish Crossover"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "date": "2025-08-18",
+      "current_price": {
+        "NVDA": {
+          "NVDA": 182.01
+        }
+      },
+      "returns": {
+        "daily": {
+          "NVDA": {
+            "NVDA": 0.86
+          }
+        },
+        "weekly": {
+          "NVDA": {
+            "NVDA": 0.69
+          }
+        },
+        "monthly": {
+          "NVDA": {
+            "NVDA": 15.02
+          }
+        },
+        "quarterly": {
+          "NVDA": {
+            "NVDA": 89.02
+          }
+        },
+        "yearly": {
+          "NVDA": {
+            "NVDA": 113.63
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "NVDA": {
+            "NVDA": 0.74
+          }
+        },
+        "monthly": {
+          "NVDA": {
+            "NVDA": 1.51
+          }
+        },
+        "quarterly": {
+          "NVDA": {
+            "NVDA": 2.23
+          }
+        },
+        "yearly": {
+          "NVDA": {
+            "NVDA": 3.41
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "NVDA": 164.34
+        },
+        "Price_to_MA50": {
+          "NVDA": 1.11
+        },
+        "MA_200": {
+          "NVDA": 137.07
+        },
+        "Price_to_MA200": {
+          "NVDA": 1.33
+        },
+        "RSI_14": 61.35,
+        "MACD": {
+          "NVDA": 5.15
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "date": "2025-08-18",
+      "current_price": {
+        "AMD": {
+          "AMD": 176.14
+        }
+      },
+      "returns": {
+        "daily": {
+          "AMD": {
+            "AMD": -0.77
+          }
+        },
+        "weekly": {
+          "AMD": {
+            "AMD": 2.17
+          }
+        },
+        "monthly": {
+          "AMD": {
+            "AMD": 30.67
+          }
+        },
+        "quarterly": {
+          "AMD": {
+            "AMD": 125.21
+          }
+        },
+        "yearly": {
+          "AMD": {
+            "AMD": -14.23
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "AMD": {
+            "AMD": 2.78
+          }
+        },
+        "monthly": {
+          "AMD": {
+            "AMD": 2.87
+          }
+        },
+        "quarterly": {
+          "AMD": {
+            "AMD": 2.96
+          }
+        },
+        "yearly": {
+          "AMD": {
+            "AMD": 3.21
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "AMD": 151.26
+        },
+        "Price_to_MA50": {
+          "AMD": 1.16
+        },
+        "MA_200": {
+          "AMD": 124.51
+        },
+        "Price_to_MA200": {
+          "AMD": 1.41
+        },
+        "RSI_14": 48.9,
+        "MACD": {
+          "AMD": 7.72
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "date": "2025-08-18",
+      "current_price": {
+        "PLTR": {
+          "PLTR": 174.03
+        }
+      },
+      "returns": {
+        "daily": {
+          "PLTR": {
+            "PLTR": -1.77
+          }
+        },
+        "weekly": {
+          "PLTR": {
+            "PLTR": -4.48
+          }
+        },
+        "monthly": {
+          "PLTR": {
+            "PLTR": 25.09
+          }
+        },
+        "quarterly": {
+          "PLTR": {
+            "PLTR": 125.08
+          }
+        },
+        "yearly": {
+          "PLTR": {
+            "PLTR": 623.92
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "PLTR": {
+            "PLTR": 1.75
+          }
+        },
+        "monthly": {
+          "PLTR": {
+            "PLTR": 2.53
+          }
+        },
+        "quarterly": {
+          "PLTR": {
+            "PLTR": 3.58
+          }
+        },
+        "yearly": {
+          "PLTR": {
+            "PLTR": 4.19
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "PLTR": 151.58
+        },
+        "Price_to_MA50": {
+          "PLTR": 1.15
+        },
+        "MA_200": {
+          "PLTR": 104.07
+        },
+        "Price_to_MA200": {
+          "PLTR": 1.67
+        },
+        "RSI_14": 64.6,
+        "MACD": {
+          "PLTR": 9.24
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "C3.ai",
+      "ticker": "AI",
+      "date": "2025-08-18",
+      "current_price": {
+        "AI": {
+          "AI": 18.2
+        }
+      },
+      "returns": {
+        "daily": {
+          "AI": {
+            "AI": 1.96
+          }
+        },
+        "weekly": {
+          "AI": {
+            "AI": -19.68
+          }
+        },
+        "monthly": {
+          "AI": {
+            "AI": -29.04
+          }
+        },
+        "quarterly": {
+          "AI": {
+            "AI": -0.22
+          }
+        },
+        "yearly": {
+          "AI": {
+            "AI": -46.58
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "AI": {
+            "AI": 12.16
+          }
+        },
+        "monthly": {
+          "AI": {
+            "AI": 5.97
+          }
+        },
+        "quarterly": {
+          "AI": {
+            "AI": 4.74
+          }
+        },
+        "yearly": {
+          "AI": {
+            "AI": 4.08
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "AI": 24.34
+        },
+        "Price_to_MA50": {
+          "AI": 0.75
+        },
+        "MA_200": {
+          "AI": 27.14
+        },
+        "Price_to_MA200": {
+          "AI": 0.67
+        },
+        "RSI_14": 25.77,
+        "MACD": {
+          "AI": -2.13
+        }
+      },
+      "trend": "Recent Bearish Crossover"
+    },
+    {
+      "name": "Super Micro",
+      "ticker": "SMCI",
+      "date": "2025-08-18",
+      "current_price": {
+        "SMCI": {
+          "SMCI": 45.86
+        }
+      },
+      "returns": {
+        "daily": {
+          "SMCI": {
+            "SMCI": 1.08
+          }
+        },
+        "weekly": {
+          "SMCI": {
+            "SMCI": -1.74
+          }
+        },
+        "monthly": {
+          "SMCI": {
+            "SMCI": -2.65
+          }
+        },
+        "quarterly": {
+          "SMCI": {
+            "SMCI": 44.62
+          }
+        },
+        "yearly": {
+          "SMCI": {
+            "SMCI": -57.31
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "SMCI": {
+            "SMCI": 1.5
+          }
+        },
+        "monthly": {
+          "SMCI": {
+            "SMCI": 4.73
+          }
+        },
+        "quarterly": {
+          "SMCI": {
+            "SMCI": 5.0
+          }
+        },
+        "yearly": {
+          "SMCI": {
+            "SMCI": 6.63
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "SMCI": 48.85
+        },
+        "Price_to_MA50": {
+          "SMCI": 0.94
+        },
+        "MA_200": {
+          "SMCI": 39.04
+        },
+        "Price_to_MA200": {
+          "SMCI": 1.17
+        },
+        "RSI_14": 24.2,
+        "MACD": {
+          "SMCI": -1.38
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "date": "2025-08-18",
+      "current_price": {
+        "BTC-USD": {
+          "BTC-USD": 116252.31
+        }
+      },
+      "returns": {
+        "daily": {
+          "BTC-USD": {
+            "BTC-USD": -1.02
+          }
+        },
+        "weekly": {
+          "BTC-USD": {
+            "BTC-USD": -2.09
+          }
+        },
+        "monthly": {
+          "BTC-USD": {
+            "BTC-USD": -1.43
+          }
+        },
+        "quarterly": {
+          "BTC-USD": {
+            "BTC-USD": 8.86
+          }
+        },
+        "yearly": {
+          "BTC-USD": {
+            "BTC-USD": 98.78
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "BTC-USD": {
+            "BTC-USD": 2.16
+          }
+        },
+        "monthly": {
+          "BTC-USD": {
+            "BTC-USD": 1.46
+          }
+        },
+        "quarterly": {
+          "BTC-USD": {
+            "BTC-USD": 1.57
+          }
+        },
+        "yearly": {
+          "BTC-USD": {
+            "BTC-USD": 2.39
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "BTC-USD": 115737.95
+        },
+        "Price_to_MA50": {
+          "BTC-USD": 1.0
+        },
+        "MA_200": {
+          "BTC-USD": 100344.16
+        },
+        "Price_to_MA200": {
+          "BTC-USD": 1.16
+        },
+        "RSI_14": 52.87,
+        "MACD": {
+          "BTC-USD": 632.6
+        }
+      },
+      "trend": "Uptrend"
+    },
+    {
+      "name": "Ethereum",
+      "ticker": "ETH-USD",
+      "date": "2025-08-18",
+      "current_price": {
+        "ETH-USD": {
+          "ETH-USD": 4312.5
+        }
+      },
+      "returns": {
+        "daily": {
+          "ETH-USD": {
+            "ETH-USD": -3.59
+          }
+        },
+        "weekly": {
+          "ETH-USD": {
+            "ETH-USD": 2.02
+          }
+        },
+        "monthly": {
+          "ETH-USD": {
+            "ETH-USD": 19.95
+          }
+        },
+        "quarterly": {
+          "ETH-USD": {
+            "ETH-USD": 70.85
+          }
+        },
+        "yearly": {
+          "ETH-USD": {
+            "ETH-USD": 65.02
+          }
+        }
+      },
+      "volatility": {
+        "weekly": {
+          "ETH-USD": {
+            "ETH-USD": 3.03
+          }
+        },
+        "monthly": {
+          "ETH-USD": {
+            "ETH-USD": 3.52
+          }
+        },
+        "quarterly": {
+          "ETH-USD": {
+            "ETH-USD": 3.35
+          }
+        },
+        "yearly": {
+          "ETH-USD": {
+            "ETH-USD": 3.84
+          }
+        }
+      },
+      "technical_indicators": {
+        "MA_50": {
+          "ETH-USD": 3524.09
+        },
+        "Price_to_MA50": {
+          "ETH-USD": 1.22
+        },
+        "MA_200": {
+          "ETH-USD": 2570.08
+        },
+        "Price_to_MA200": {
+          "ETH-USD": 1.68
+        },
+        "RSI_14": 65.93,
+        "MACD": {
+          "ETH-USD": 277.38
+        }
+      },
+      "trend": "Uptrend"
+    }
+  ],
+  "correlations": {
+    "^GSPC": {
+      "^GSPC": 1.0,
+      "^DJI": 0.92,
+      "^IXIC": 0.95,
+      "^RUT": 0.84,
+      "^VIX": -0.74,
+      "XLK": 0.93,
+      "SMH": 0.82,
+      "IGV": 0.84,
+      "BOTZ": 0.86,
+      "AAPL": 0.76,
+      "MSFT": 0.77,
+      "GOOGL": 0.71,
+      "AMZN": 0.72,
+      "META": 0.63,
+      "TSLA": 0.56,
+      "NVDA": 0.7,
+      "AMD": 0.67,
+      "PLTR": 0.47,
+      "AI": 0.43,
+      "SMCI": 0.38,
+      "BTC-USD": 0.37,
+      "ETH-USD": 0.38
+    },
+    "^DJI": {
+      "^GSPC": 0.92,
+      "^DJI": 1.0,
+      "^IXIC": 0.79,
+      "^RUT": 0.82,
+      "^VIX": -0.7,
+      "XLK": 0.77,
+      "SMH": 0.64,
+      "IGV": 0.69,
+      "BOTZ": 0.74,
+      "AAPL": 0.64,
+      "MSFT": 0.63,
+      "GOOGL": 0.56,
+      "AMZN": 0.56,
+      "META": 0.48,
+      "TSLA": 0.42,
+      "NVDA": 0.5,
+      "AMD": 0.5,
+      "PLTR": 0.36,
+      "AI": 0.35,
+      "SMCI": 0.29,
+      "BTC-USD": 0.32,
+      "ETH-USD": 0.33
+    },
+    "^IXIC": {
+      "^GSPC": 0.95,
+      "^DJI": 0.79,
+      "^IXIC": 1.0,
+      "^RUT": 0.79,
+      "^VIX": -0.7,
+      "XLK": 0.97,
+      "SMH": 0.88,
+      "IGV": 0.9,
+      "BOTZ": 0.88,
+      "AAPL": 0.79,
+      "MSFT": 0.82,
+      "GOOGL": 0.75,
+      "AMZN": 0.79,
+      "META": 0.69,
+      "TSLA": 0.64,
+      "NVDA": 0.79,
+      "AMD": 0.74,
+      "PLTR": 0.54,
+      "AI": 0.48,
+      "SMCI": 0.41,
+      "BTC-USD": 0.39,
+      "ETH-USD": 0.4
+    },
+    "^RUT": {
+      "^GSPC": 0.84,
+      "^DJI": 0.82,
+      "^IXIC": 0.79,
+      "^RUT": 1.0,
+      "^VIX": -0.66,
+      "XLK": 0.72,
+      "SMH": 0.69,
+      "IGV": 0.71,
+      "BOTZ": 0.8,
+      "AAPL": 0.55,
+      "MSFT": 0.51,
+      "GOOGL": 0.5,
+      "AMZN": 0.54,
+      "META": 0.46,
+      "TSLA": 0.51,
+      "NVDA": 0.52,
+      "AMD": 0.55,
+      "PLTR": 0.49,
+      "AI": 0.5,
+      "SMCI": 0.35,
+      "BTC-USD": 0.39,
+      "ETH-USD": 0.39
+    },
+    "^VIX": {
+      "^GSPC": -0.74,
+      "^DJI": -0.7,
+      "^IXIC": -0.7,
+      "^RUT": -0.66,
+      "^VIX": 1.0,
+      "XLK": -0.68,
+      "SMH": -0.61,
+      "IGV": -0.61,
+      "BOTZ": -0.64,
+      "AAPL": -0.53,
+      "MSFT": -0.53,
+      "GOOGL": -0.5,
+      "AMZN": -0.49,
+      "META": -0.41,
+      "TSLA": -0.41,
+      "NVDA": -0.51,
+      "AMD": -0.46,
+      "PLTR": -0.34,
+      "AI": -0.31,
+      "SMCI": -0.3,
+      "BTC-USD": -0.33,
+      "ETH-USD": -0.35
+    },
+    "XLK": {
+      "^GSPC": 0.93,
+      "^DJI": 0.77,
+      "^IXIC": 0.97,
+      "^RUT": 0.72,
+      "^VIX": -0.68,
+      "XLK": 1.0,
+      "SMH": 0.91,
+      "IGV": 0.88,
+      "BOTZ": 0.85,
+      "AAPL": 0.8,
+      "MSFT": 0.84,
+      "GOOGL": 0.7,
+      "AMZN": 0.72,
+      "META": 0.63,
+      "TSLA": 0.56,
+      "NVDA": 0.82,
+      "AMD": 0.75,
+      "PLTR": 0.49,
+      "AI": 0.44,
+      "SMCI": 0.43,
+      "BTC-USD": 0.35,
+      "ETH-USD": 0.37
+    },
+    "SMH": {
+      "^GSPC": 0.82,
+      "^DJI": 0.64,
+      "^IXIC": 0.88,
+      "^RUT": 0.69,
+      "^VIX": -0.61,
+      "XLK": 0.91,
+      "SMH": 1.0,
+      "IGV": 0.77,
+      "BOTZ": 0.84,
+      "AAPL": 0.62,
+      "MSFT": 0.67,
+      "GOOGL": 0.6,
+      "AMZN": 0.62,
+      "META": 0.56,
+      "TSLA": 0.52,
+      "NVDA": 0.87,
+      "AMD": 0.81,
+      "PLTR": 0.46,
+      "AI": 0.41,
+      "SMCI": 0.48,
+      "BTC-USD": 0.33,
+      "ETH-USD": 0.35
+    },
+    "IGV": {
+      "^GSPC": 0.84,
+      "^DJI": 0.69,
+      "^IXIC": 0.9,
+      "^RUT": 0.71,
+      "^VIX": -0.61,
+      "XLK": 0.88,
+      "SMH": 0.77,
+      "IGV": 1.0,
+      "BOTZ": 0.82,
+      "AAPL": 0.65,
+      "MSFT": 0.78,
+      "GOOGL": 0.65,
+      "AMZN": 0.73,
+      "META": 0.61,
+      "TSLA": 0.55,
+      "NVDA": 0.71,
+      "AMD": 0.66,
+      "PLTR": 0.58,
+      "AI": 0.5,
+      "SMCI": 0.35,
+      "BTC-USD": 0.37,
+      "ETH-USD": 0.37
+    },
+    "BOTZ": {
+      "^GSPC": 0.86,
+      "^DJI": 0.74,
+      "^IXIC": 0.88,
+      "^RUT": 0.8,
+      "^VIX": -0.64,
+      "XLK": 0.85,
+      "SMH": 0.84,
+      "IGV": 0.82,
+      "BOTZ": 1.0,
+      "AAPL": 0.62,
+      "MSFT": 0.66,
+      "GOOGL": 0.61,
+      "AMZN": 0.64,
+      "META": 0.58,
+      "TSLA": 0.53,
+      "NVDA": 0.75,
+      "AMD": 0.69,
+      "PLTR": 0.53,
+      "AI": 0.51,
+      "SMCI": 0.42,
+      "BTC-USD": 0.37,
+      "ETH-USD": 0.39
+    },
+    "AAPL": {
+      "^GSPC": 0.76,
+      "^DJI": 0.64,
+      "^IXIC": 0.79,
+      "^RUT": 0.55,
+      "^VIX": -0.53,
+      "XLK": 0.8,
+      "SMH": 0.62,
+      "IGV": 0.65,
+      "BOTZ": 0.62,
+      "AAPL": 1.0,
+      "MSFT": 0.66,
+      "GOOGL": 0.58,
+      "AMZN": 0.59,
+      "META": 0.51,
+      "TSLA": 0.5,
+      "NVDA": 0.54,
+      "AMD": 0.54,
+      "PLTR": 0.37,
+      "AI": 0.36,
+      "SMCI": 0.24,
+      "BTC-USD": 0.26,
+      "ETH-USD": 0.28
+    },
+    "MSFT": {
+      "^GSPC": 0.77,
+      "^DJI": 0.63,
+      "^IXIC": 0.82,
+      "^RUT": 0.51,
+      "^VIX": -0.53,
+      "XLK": 0.84,
+      "SMH": 0.67,
+      "IGV": 0.78,
+      "BOTZ": 0.66,
+      "AAPL": 0.66,
+      "MSFT": 1.0,
+      "GOOGL": 0.68,
+      "AMZN": 0.68,
+      "META": 0.6,
+      "TSLA": 0.43,
+      "NVDA": 0.64,
+      "AMD": 0.57,
+      "PLTR": 0.38,
+      "AI": 0.33,
+      "SMCI": 0.3,
+      "BTC-USD": 0.31,
+      "ETH-USD": 0.31
+    },
+    "GOOGL": {
+      "^GSPC": 0.71,
+      "^DJI": 0.56,
+      "^IXIC": 0.75,
+      "^RUT": 0.5,
+      "^VIX": -0.5,
+      "XLK": 0.7,
+      "SMH": 0.6,
+      "IGV": 0.65,
+      "BOTZ": 0.61,
+      "AAPL": 0.58,
+      "MSFT": 0.68,
+      "GOOGL": 1.0,
+      "AMZN": 0.64,
+      "META": 0.6,
+      "TSLA": 0.4,
+      "NVDA": 0.55,
+      "AMD": 0.54,
+      "PLTR": 0.34,
+      "AI": 0.28,
+      "SMCI": 0.25,
+      "BTC-USD": 0.28,
+      "ETH-USD": 0.31
+    },
+    "AMZN": {
+      "^GSPC": 0.72,
+      "^DJI": 0.56,
+      "^IXIC": 0.79,
+      "^RUT": 0.54,
+      "^VIX": -0.49,
+      "XLK": 0.72,
+      "SMH": 0.62,
+      "IGV": 0.73,
+      "BOTZ": 0.64,
+      "AAPL": 0.59,
+      "MSFT": 0.68,
+      "GOOGL": 0.64,
+      "AMZN": 1.0,
+      "META": 0.62,
+      "TSLA": 0.44,
+      "NVDA": 0.57,
+      "AMD": 0.54,
+      "PLTR": 0.42,
+      "AI": 0.34,
+      "SMCI": 0.26,
+      "BTC-USD": 0.28,
+      "ETH-USD": 0.29
+    },
+    "META": {
+      "^GSPC": 0.63,
+      "^DJI": 0.48,
+      "^IXIC": 0.69,
+      "^RUT": 0.46,
+      "^VIX": -0.41,
+      "XLK": 0.63,
+      "SMH": 0.56,
+      "IGV": 0.61,
+      "BOTZ": 0.58,
+      "AAPL": 0.51,
+      "MSFT": 0.6,
+      "GOOGL": 0.6,
+      "AMZN": 0.62,
+      "META": 1.0,
+      "TSLA": 0.34,
+      "NVDA": 0.51,
+      "AMD": 0.49,
+      "PLTR": 0.36,
+      "AI": 0.29,
+      "SMCI": 0.27,
+      "BTC-USD": 0.21,
+      "ETH-USD": 0.23
+    },
+    "TSLA": {
+      "^GSPC": 0.56,
+      "^DJI": 0.42,
+      "^IXIC": 0.64,
+      "^RUT": 0.51,
+      "^VIX": -0.41,
+      "XLK": 0.56,
+      "SMH": 0.52,
+      "IGV": 0.55,
+      "BOTZ": 0.53,
+      "AAPL": 0.5,
+      "MSFT": 0.43,
+      "GOOGL": 0.4,
+      "AMZN": 0.44,
+      "META": 0.34,
+      "TSLA": 1.0,
+      "NVDA": 0.47,
+      "AMD": 0.47,
+      "PLTR": 0.46,
+      "AI": 0.38,
+      "SMCI": 0.23,
+      "BTC-USD": 0.3,
+      "ETH-USD": 0.3
+    },
+    "NVDA": {
+      "^GSPC": 0.7,
+      "^DJI": 0.5,
+      "^IXIC": 0.79,
+      "^RUT": 0.52,
+      "^VIX": -0.51,
+      "XLK": 0.82,
+      "SMH": 0.87,
+      "IGV": 0.71,
+      "BOTZ": 0.75,
+      "AAPL": 0.54,
+      "MSFT": 0.64,
+      "GOOGL": 0.55,
+      "AMZN": 0.57,
+      "META": 0.51,
+      "TSLA": 0.47,
+      "NVDA": 1.0,
+      "AMD": 0.73,
+      "PLTR": 0.44,
+      "AI": 0.37,
+      "SMCI": 0.46,
+      "BTC-USD": 0.3,
+      "ETH-USD": 0.31
+    },
+    "AMD": {
+      "^GSPC": 0.67,
+      "^DJI": 0.5,
+      "^IXIC": 0.74,
+      "^RUT": 0.55,
+      "^VIX": -0.46,
+      "XLK": 0.75,
+      "SMH": 0.81,
+      "IGV": 0.66,
+      "BOTZ": 0.69,
+      "AAPL": 0.54,
+      "MSFT": 0.57,
+      "GOOGL": 0.54,
+      "AMZN": 0.54,
+      "META": 0.49,
+      "TSLA": 0.47,
+      "NVDA": 0.73,
+      "AMD": 1.0,
+      "PLTR": 0.42,
+      "AI": 0.37,
+      "SMCI": 0.44,
+      "BTC-USD": 0.29,
+      "ETH-USD": 0.3
+    },
+    "PLTR": {
+      "^GSPC": 0.47,
+      "^DJI": 0.36,
+      "^IXIC": 0.54,
+      "^RUT": 0.49,
+      "^VIX": -0.34,
+      "XLK": 0.49,
+      "SMH": 0.46,
+      "IGV": 0.58,
+      "BOTZ": 0.53,
+      "AAPL": 0.37,
+      "MSFT": 0.38,
+      "GOOGL": 0.34,
+      "AMZN": 0.42,
+      "META": 0.36,
+      "TSLA": 0.46,
+      "NVDA": 0.44,
+      "AMD": 0.42,
+      "PLTR": 1.0,
+      "AI": 0.49,
+      "SMCI": 0.25,
+      "BTC-USD": 0.25,
+      "ETH-USD": 0.24
+    },
+    "AI": {
+      "^GSPC": 0.43,
+      "^DJI": 0.35,
+      "^IXIC": 0.48,
+      "^RUT": 0.5,
+      "^VIX": -0.31,
+      "XLK": 0.44,
+      "SMH": 0.41,
+      "IGV": 0.5,
+      "BOTZ": 0.51,
+      "AAPL": 0.36,
+      "MSFT": 0.33,
+      "GOOGL": 0.28,
+      "AMZN": 0.34,
+      "META": 0.29,
+      "TSLA": 0.38,
+      "NVDA": 0.37,
+      "AMD": 0.37,
+      "PLTR": 0.49,
+      "AI": 1.0,
+      "SMCI": 0.27,
+      "BTC-USD": 0.23,
+      "ETH-USD": 0.2
+    },
+    "SMCI": {
+      "^GSPC": 0.38,
+      "^DJI": 0.29,
+      "^IXIC": 0.41,
+      "^RUT": 0.35,
+      "^VIX": -0.3,
+      "XLK": 0.43,
+      "SMH": 0.48,
+      "IGV": 0.35,
+      "BOTZ": 0.42,
+      "AAPL": 0.24,
+      "MSFT": 0.3,
+      "GOOGL": 0.25,
+      "AMZN": 0.26,
+      "META": 0.27,
+      "TSLA": 0.23,
+      "NVDA": 0.46,
+      "AMD": 0.44,
+      "PLTR": 0.25,
+      "AI": 0.27,
+      "SMCI": 1.0,
+      "BTC-USD": 0.15,
+      "ETH-USD": 0.16
+    },
+    "BTC-USD": {
+      "^GSPC": 0.37,
+      "^DJI": 0.32,
+      "^IXIC": 0.39,
+      "^RUT": 0.39,
+      "^VIX": -0.33,
+      "XLK": 0.35,
+      "SMH": 0.33,
+      "IGV": 0.37,
+      "BOTZ": 0.37,
+      "AAPL": 0.26,
+      "MSFT": 0.31,
+      "GOOGL": 0.28,
+      "AMZN": 0.28,
+      "META": 0.21,
+      "TSLA": 0.3,
+      "NVDA": 0.3,
+      "AMD": 0.29,
+      "PLTR": 0.25,
+      "AI": 0.23,
+      "SMCI": 0.15,
+      "BTC-USD": 1.0,
+      "ETH-USD": 0.8
+    },
+    "ETH-USD": {
+      "^GSPC": 0.38,
+      "^DJI": 0.33,
+      "^IXIC": 0.4,
+      "^RUT": 0.39,
+      "^VIX": -0.35,
+      "XLK": 0.37,
+      "SMH": 0.35,
+      "IGV": 0.37,
+      "BOTZ": 0.39,
+      "AAPL": 0.28,
+      "MSFT": 0.31,
+      "GOOGL": 0.31,
+      "AMZN": 0.29,
+      "META": 0.23,
+      "TSLA": 0.3,
+      "NVDA": 0.31,
+      "AMD": 0.3,
+      "PLTR": 0.24,
+      "AI": 0.2,
+      "SMCI": 0.16,
+      "BTC-USD": 0.8,
+      "ETH-USD": 1.0
+    }
+  },
+  "correlation_changes": [],
+  "forward_looking_indicators": {
+    "fomc_statements": {
+      "latest_date": "2025-03-20",
+      "latest_statement_summary": "The Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. The Committee will continue to monitor incoming information for the economic outlook, including progress on lowering inflation to our 2 percent objective.",
+      "key_phrases": [
+        "risks to achieving employment and inflation goals remain roughly in balance",
+        "inflation has made progress toward our 2 percent objective",
+        "economic activity has been expanding at a moderate pace",
+        "job gains have remained solid"
+      ],
+      "policy_stance": "Neutral with a bias toward easing",
+      "next_meeting_date": "2025-04-30"
+    },
+    "rate_expectations": {
+      "current_rate": 4.33,
+      "implied_3m_change": -0.25,
+      "implied_6m_change": -0.5,
+      "implied_12m_change": -0.75,
+      "market_probability_cut_next_meeting": 65.0,
+      "market_probability_hike_next_meeting": 5.0
+    },
+    "pmi_data": {
+      "manufacturing_pmi": 48.5,
+      "services_pmi": 52.1,
+      "composite_pmi": 51.0,
+      "manufacturing_trend": "Contracting",
+      "services_trend": "Expanding",
+      "composite_trend": "Expanding Slowly"
+    }
+  }
+}
